@@ -20,7 +20,7 @@ function FormPendaftaran() {
   useEffect(() => {
     const getProvinsi = () => {
       axios
-        .get('http://dev.farizdotid.com/api/daerahindonesia/provinsi')
+        .get('https://dev.farizdotid.com/api/daerahindonesia/provinsi')
         .then((res) => {
           console.log('resss', res.data.provinsi);
           const optionsProvinsi = res.data.provinsi.map((item) => {
@@ -39,7 +39,7 @@ function FormPendaftaran() {
     const getKabupatenKota = () => {
       axios
         .get(
-          `http://dev.farizdotid.com/api/daerahindonesia/kota?id_provinsi=${values.provinsi}`
+          `https://dev.farizdotid.com/api/daerahindonesia/kota?id_provinsi=${values.provinsi}`
         )
         .then((res) => {
           console.log('resss', res.data.kota_kabupaten);
@@ -62,7 +62,7 @@ function FormPendaftaran() {
     const getKecamatan = () => {
       axios
         .get(
-          ` http://dev.farizdotid.com/api/daerahindonesia/kecamatan?id_kota=${values.kabupatenKota}`
+          ` https://dev.farizdotid.com/api/daerahindonesia/kecamatan?id_kota=${values.kabupatenKota}`
         )
         .then((res) => {
           console.log('resss', res.data.kecamatan);
@@ -84,7 +84,7 @@ function FormPendaftaran() {
     const getKelurahan = () => {
       axios
         .get(
-          ` http://dev.farizdotid.com/api/daerahindonesia/kelurahan?id_kecamatan=${values.kecamatan}`
+          ` https://dev.farizdotid.com/api/daerahindonesia/kelurahan?id_kecamatan=${values.kecamatan}`
         )
         .then((res) => {
           console.log('resss kelurahan', res.data);
