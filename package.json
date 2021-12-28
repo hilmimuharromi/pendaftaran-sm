@@ -2,19 +2,24 @@
   "name": "pendaftaran",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://pendaftaran.shohibulmuslimin.com",
+  "homepage": "https://pendaftaran.shohibulmuslimin.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "formik-semantic-ui-react": "^2.0.0",
+    "google-spreadsheet": "^3.2.0",
     "react": "^17.0.2",
     "react-date-picker": "^8.3.6",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-toastify": "^8.1.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
