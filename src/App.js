@@ -1,19 +1,8 @@
-import { Tab, Container, Image, Card, Button } from 'semantic-ui-react'
+import {  Container, Image, Card, Button } from 'semantic-ui-react'
 import FormPendaftaran from './components/formPendaftaran';
-import TesSheet from './components/tesSheet';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 function App() {
-  const panes = [
-    {
-      menuItem: 'Pendaftaran',
-      render: () => <Tab.Pane attached={false}><FormPendaftaran /></Tab.Pane>,
-    },
-    {
-      menuItem: 'Formulir',
-      render: () => <Tab.Pane attached={false}><TesSheet/></Tab.Pane>,
-    },
-  ]
   return (
     <>
     <ToastContainer

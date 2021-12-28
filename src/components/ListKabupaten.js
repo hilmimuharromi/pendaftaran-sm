@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useEffect} from 'react'
 import {
     Select,
   } from "formik-semantic-ui-react";
@@ -26,6 +26,7 @@ function ListKabupaten({values, setFieldValue, listKabupaten, setListKabupaten})
     if (values.provinsi) {
       getKabupatenKota();
     }
+    //eslint-disable-next-line
   }, [values.provinsi]);
 
 

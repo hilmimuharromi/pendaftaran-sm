@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 import { Select } from 'formik-semantic-ui-react';
 import axios from 'axios';
 function ListProvinsi({listProvinsi, setListProvinsi}) {
@@ -20,6 +20,7 @@ function ListProvinsi({listProvinsi, setListProvinsi}) {
         });
     };
     getProvinsi();
+    //eslint-disable-next-line
   }, []);
 
   return (

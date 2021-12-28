@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import { GoogleSpreadsheet } from "google-spreadsheet";
 
 
@@ -54,8 +54,6 @@ const getData = async () => {
 
 
 }
-
-const newRow = { "Nama Santri": "tes", Value: "new value" };
 
     return (
         <div>

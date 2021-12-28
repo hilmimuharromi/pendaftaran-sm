@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Grid, Divider, GridRow } from 'semantic-ui-react';
+import React, { useState} from 'react';
+import { Grid, Divider } from 'semantic-ui-react';
 import {
   Form,
   Input,
@@ -31,34 +31,34 @@ function FormPendaftaran() {
     content: 'Pendaftaran Anda Sukses dan Mohon Segera Konfirmasi ke nomer tertera di bagian bawah'
   })
 
-  const initialValueTes = {
-    namaLengkap: 'Ahmad Kevin',
-    namaPanggilan: 'Kevin',
-    jenisKelamin: 'Laki-laki',
-    tempatLahir: 'Jakarta',
-    tanggalLahir: '2000-10-01',
-    email: 'emhaemhaem@gmail.com',
-    provinsi: 'Dki Jakarta',
-    kabupaten: 'Jakarta Timur',
-    kecamatan: 'Cakung',
-    kelurahan: 'Jatinegara',
-    rt: '04',
-    rw: '06',
-    detailAlamat: 'Jalan Pengarengan',
+  // const initialValueTes = {
+  //   namaLengkap: 'Ahmad Kevin',
+  //   namaPanggilan: 'Kevin',
+  //   jenisKelamin: 'Laki-laki',
+  //   tempatLahir: 'Jakarta',
+  //   tanggalLahir: '2000-10-01',
+  //   email: 'emhaemhaem@gmail.com',
+  //   provinsi: 'Dki Jakarta',
+  //   kabupaten: 'Jakarta Timur',
+  //   kecamatan: 'Cakung',
+  //   kelurahan: 'Jatinegara',
+  //   rt: '04',
+  //   rw: '06',
+  //   detailAlamat: 'Jalan Pengarengan',
 
-    nomorHPSantri: '0811626262',
-    namaAyah: 'Santoso',
-    namaIbu: 'Santi',
-    pekerjaanAyah: 'Pegawai Swasta',
-    pekerjaanIbu: 'IRT',
-    nomorHPOrtu: '0210303003',
-    jenjangPendidikan: 'SMK',
-    asalSekolah: 'SMP ALazhar',
-    nomorTeleponAsalSekolah: '08020202',
-    ijazah: '',
-    kk: '',
-    pasFoto: '',
-  };
+  //   nomorHPSantri: '0811626262',
+  //   namaAyah: 'Santoso',
+  //   namaIbu: 'Santi',
+  //   pekerjaanAyah: 'Pegawai Swasta',
+  //   pekerjaanIbu: 'IRT',
+  //   nomorHPOrtu: '0210303003',
+  //   jenjangPendidikan: 'SMK',
+  //   asalSekolah: 'SMP ALazhar',
+  //   nomorTeleponAsalSekolah: '08020202',
+  //   ijazah: '',
+  //   kk: '',
+  //   pasFoto: '',
+  // };
 
   const initialValue = {
     namaLengkap: '',

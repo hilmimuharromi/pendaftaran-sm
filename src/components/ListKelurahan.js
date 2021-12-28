@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useEffect} from 'react'
 import {
     Select,
   } from "formik-semantic-ui-react";
@@ -27,6 +27,7 @@ function ListKelurahan({values, setFieldValue, listKelurahan, setListKelurahan})
     if (values.kecamatan) {
       getKelurahan();
     }
+    //eslint-disable-next-line
   }, [values.kecamatan]);
 
 

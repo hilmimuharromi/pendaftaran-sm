@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useEffect} from 'react'
 import {
     Select,
   } from "formik-semantic-ui-react";
@@ -26,6 +26,7 @@ function ListKecamatan({values, setFieldValue, listKecamatan, setListKecamatan})
     if (values.kabupaten) {
       getKecamatan();
     }
+    //eslint-disable-next-line
   }, [values.kabupaten])
 
 
