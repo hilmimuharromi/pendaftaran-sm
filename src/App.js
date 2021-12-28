@@ -18,14 +18,15 @@ pauseOnHover
 />
     <div style={{minHeigth: '100vh', backgroundColor: 'EEF2FF', padding: '10vh'}}>
     <Container>
-      <Button>{'<'} Kembali Ke Home</Button>   <h2>Form Pendaftaran Santri</h2>
+      <div style={{display: 'flex', width: '100%', justifyContent: 'flex-start', alignContent: 'center', alignItems: 'center', marginBottom: 20}}>
+      <Button onClick={() => window.location.href='https://shohibulmuslimin.com'}>{'<'} Kembali Ke Home</Button>
+      </div>
       <Card style={{width: '80vw', padding: 20}}>
 
-      <div style={{display: 'flex', width: '100%', justifyContent: 'center'}}>
+      <div style={{display: 'flex', width: '100%', justifyContent: 'center', marginBottom: 20}}>
       <Image src="https://shohibulmuslimin.com/wp-content/uploads/2019/11/logo-sm.png" />
       </div>
       <FormPendaftaran />
-  {/* <Tab menu={{ secondary: true, pointing: true }} panes={panes} /> */}
   </Card>
 
 </Container>
