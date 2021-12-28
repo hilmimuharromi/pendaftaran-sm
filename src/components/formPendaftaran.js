@@ -212,7 +212,7 @@ function FormPendaftaran() {
 
     
 
-    axios.post('http://localhost:4000', formData, config).then((res) => {
+    axios.post('https://apidaftar.shohibulmuslimin.com/', formData, config).then((res) => {
       console.log('dataa', res)
       resetForm()
       toast.success('Pendaftaran Berhasil');
